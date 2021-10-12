@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Main -> output_File: take in path
+output_File --> index.html: create a html file
+
+
+@enduml
